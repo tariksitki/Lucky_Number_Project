@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgb(255, 255, 158);
+}
+
+nav {
+    background-color: rgb(107, 107, 255);
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav > h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(255, 255, 158);
+}
+
+main {
+    /* background-color: blueviolet; */
+    width: 80%;
+    height: 75vh;
+    margin: 3vh auto 0vh auto;
+}
+
+
+
+.div_out {
+    /* background-color: bisque; */
+    height: 9%;
+    margin-top: 0.9%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.div_in {
+    background-color: rgb(195, 195, 250);
+    height: 105%;
+    width: 4.7%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.div1_in,
+.serie {
+    background-color: rgb(118, 118, 255);
+    text-align: center;
+    border-radius: 10px 0px;
+    width: 5%;
+    color: rgb(255, 255, 158);
+    font-size: 1rem;
+    height: 90%;
+}
+
+.input_section {
+    /* background-color: bisque; */
+    width: 34vw;
+    height: 5vh;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input_number {
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    outline: none;
+    border: 0.15rem solid rgb(107, 107, 255);
+    color: rgb(72, 72, 255);
+}
+
+#input_button {
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(107, 107, 255);
+    font-size: 1.1rem;
+    color: rgb(255, 255, 158);
+}
+
+#reset {
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(107, 107, 255);
+    font-size: 1.1rem;
+    color: rgb(255, 255, 158);
+}
+
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+    display: none;
+}
+
+.joker {
+    background-color: rgb(171, 87, 250);
+}
+
+.superstar {
+    background-color: rgb(255, 131, 118);
+}
+
+#none {
+    background-color: rgb(255, 255, 158);
+}
